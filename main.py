@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 import pickle
 import os
 
-SCRATCH_USER = sortwellike
+SCRATCH_USER = "sortwellike"
 PROJECT_ID = 1223328801
 SESSION = os.environ.get("SCRATCH_SESS")  # set this on host
 HEADERS = {"Cookie": f"scratchsessionsid={SESSION};", "X-Requested-With":"XMLHttpRequest","Referer":"https://scratch.mit.edu"}
