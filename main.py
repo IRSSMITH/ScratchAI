@@ -8,6 +8,7 @@ import os
 
 SCRATCH_USER = sortwellike
 PROJECT_ID = 1223328801
+SCRATCH_SESS = .eJxVkEFPhDAUhP8LZ8W2rxS6N_dizCbGeEG9kLY8oQItC11J1vjfbRMue52Z983k_WaXFRenJswO2eqXsOE42gGzuyz4AV1UoSKk4IaIsgBOBNGaGcqBFbQ0BlAf2ueZ1p8nez13r0_vx_qsejrXP8tpriJm9J1193aOJCp4XrCcsSoHHq1GXULfpAGNbaMvJZUUKIlW-61c55tgJ7x6l8Y9TrhYox5ecGs-_DLc3vdq7WOIFEh0hUB5qelXKbQoQQNpDUrJNAOQUBghU0PANRjvB5vgWwRie4vUysQHpF1JQxdie7De5bux5m84j7t43MN__yWSbGw:1v5jpw:6IkMaJUBuQK-R8MPEh_D5VPE6VU
 SESSION = os.environ.get("SCRATCH_SESS")  # set this on host
 HEADERS = {"Cookie": f"scratchsessionsid={SESSION};", "X-Requested-With":"XMLHttpRequest","Referer":"https://scratch.mit.edu"}
 
